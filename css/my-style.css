@@ -1,1 +1,33 @@
 /* My CSS */
+.my-main-div {
+  text-align: center;
+}
+
+.my-main-div div {
+  padding-bottom: 25px;
+}
+
+.my-main-div input, p{
+  color: white;
+  text-align: center;
+  font-size: 10em;
+}
+
+input {
+  background: #222222;
+  border: white;
+}
+
+.start-button {
+  background-color: #222222;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  font-size: 1.5em;
+}
+
+.start-button:hover {
+  background-color: white;
+  color: #222222;
+  transition: background 0.5s ease;
+}
